@@ -8,4 +8,6 @@
 - '--video_source' - 0, если веб-камера, или абсолютный путь до видео
 
 Пример запуска программы:
-```python test_tracker.py --yolo_model yolov8n --class_to_track person --video_source /path/to/video.mp4```
+```
+python test_tracker.py --yolo_model yolov8n --class_to_track person --video_source /path/to/video.mp4
+```
