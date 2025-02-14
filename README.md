@@ -6,3 +6,6 @@
 - '--class_to_track' - выбор объекта для отслеживания (со списком всех классов можно ознакомиться на сайте https://blog.roboflow.com/microsoft-coco-classes/);
 - '--displaying_font' - путь к файлу *.ttf со шрифтом класса bboxes;
 - '--video_source' - 0, если веб-камера, или абсолютный путь до видео
+
+Пример запуска программы:
+```python test_tracker.py --yolo_model yolov8n --class_to_track person --video_source /path/to/video.mp4```
